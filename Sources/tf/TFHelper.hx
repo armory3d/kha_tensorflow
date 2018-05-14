@@ -1,4 +1,4 @@
-package tensorflow;
+package tf;
 
 #if js
 

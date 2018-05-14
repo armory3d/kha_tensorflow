@@ -1,11 +1,11 @@
 # kha_tensorflow
 
-[tensorflow.js](https://github.com/tensorflow/tfjs) for Kha
+[tensorflow.js](https://github.com/tensorflow/tfjs) for Kha (Krom, HTML5).
 
 `git clone --recursive https://github.com/armory3d/kha_tensorflow`
 
 Add as a subproject to `khafile.js`:
-`await project.addProject("kha_tensorflow");`
+- `await project.addProject("kha_tensorflow");`
 
 ```hx
 TFHelper.init(function() {
