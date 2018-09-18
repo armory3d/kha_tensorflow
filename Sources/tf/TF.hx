@@ -53,6 +53,15 @@ extern class TF {
 	// Layers
 	static var layers:Dynamic;
 	// Operations
+	static function add(a:Dynamic, b:Dynamic):Dynamic;
+	static function sub(a:Dynamic, b:Dynamic):Dynamic;
+	static function mul(a:Dynamic, b:Dynamic):Dynamic;
+	static function div(a:Dynamic, b:Dynamic):Dynamic;
+	static function maximum(a:Dynamic, b:Dynamic):Dynamic;
+	static function minimum(a:Dynamic, b:Dynamic):Dynamic;
+	static function mod(a:Dynamic, b:Dynamic):Dynamic;
+	static function pow(base:Dynamic, exp:Dynamic):Dynamic;
+	static function squaredDifference(a:Dynamic, b:Dynamic):Dynamic;
 	static function abs(x:Dynamic):Dynamic;
 	static function acos(x:Dynamic):Dynamic;
 	static function acosh(x:Dynamic):Dynamic;
